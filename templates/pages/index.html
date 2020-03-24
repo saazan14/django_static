@@ -1,0 +1,39 @@
+{% extends 'base.html' %} {% load static %}
+{% block content %}
+
+ <!--Main layout-->
+<main>
+    <!--Grid row-->
+    <div class="row">
+        <div class="col-md-6 pb-3">
+            <img src="{% static 'img/Sajan Subba.jpeg'%}" class="img-responsive">
+
+        </div>
+        <div class="col-md-6 pb-3">
+            <div class="social-icons pull-right mt-5">
+                <!-- <a href="https://facebook.com/saazan14" target="_blank" alt="facebook"><i class="icon"></i></a> -->
+                <a href="https://twitter.com/saazan14" target="_blank" alt="twitter"><i class="icon1"></i></a>
+                <!-- <a href="#" alt="google+"><i class="icon2"></i></a> -->
+                <!--  <a href="#"><i class="icon3"></i></a> -->
+            </div>
+            <h1>SAJAN SUBBA</h1>
+            
+            <p><i class="fa fa-briefcase"></i> Full Stack Web Developer</p>
+
+            <!--  <img src="img/frame.png" style="float: right; width: 100px; margin-right: -110px; margin-top:10px;"> -->
+            <hr/>
+            <p class="intro"><i class="fa fa-mobile"> </i>  <i class="fab fa-whatsapp"></i></i> +973-33295027 </p>
+            <p class="intro"> <i class="fas fa-envelope"></i> <a href="mailto:sajan@greenweb.com.np?Subject=Hello%20Sajan" target="_top">sajan@greenweb.com.np</a></p>
+            <p class="intro"><i class="fa fa-map-marker"></i> Al Hidd, Kingdom of Bahrain</p>
+            <p class="intro"><i class="fas fa-home"></i> Jhapa, Republic of Nepal</p>
+            {% comment %} <p class="intro"><i class="fas fa-blog"></i> <a href="https://sajansubba.com.np" target="_self">sajansubba.com.np</a></p> {% endcomment %}
+
+            <hr/>
+
+        </div>
+
+    </div>
+    <!--Grid row-->
+</main>
+<!--Main layout-->
+{% endblock %}
